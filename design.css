@@ -1,0 +1,278 @@
+﻿html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden
+}
+
+body {
+	font-family: 'Special Elite', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	width: 100%;
+	margin: 0 auto;
+	background-color: #FFF5EE;
+}
+/*header*/
+.navcontainer {
+	background-color: black;
+	color: white;
+	text-align: center;
+	padding: 10px;
+	height:100px;
+}
+h1 {
+	font-size: 4em;
+	text-align: left;
+	position: relative;
+	bottom: 20px;
+	left: 100px;
+}
+h1 a{
+	color:white;
+	text-decoration:none;
+}
+
+.navbar {
+	text-align: right;
+	position: relative;
+	bottom: 110px;
+}
+
+	.navbar a {
+		text-decoration: none;
+		color: white;
+		padding: 20px;
+		
+	}
+	.navbar li {
+		text-align: end;
+		list-style-type: none;
+		display:inline;
+		font-size:2em;
+		
+}
+
+	.navbar a:hover {
+		color: #FF6347;
+	}
+	/*-----------------main---------------------------*/
+
+.underquotes {
+	background: url("img/officebg3.jpg") no-repeat;
+	background-size: cover;
+	border: 5px solid #FF6347;
+	background-position-y: 30%;
+	height:450px;
+}
+	.underquotes h2 {
+		font-size: 4em;
+		text-shadow: 2px 2px 4px #000000;
+		color: white;
+		text-align: center;
+		position: relative;
+		top: 20px;
+	}
+	.underquotes h3 {
+		font-size: 2em;
+		color: white;
+		text-shadow: 2px 2px 4px #000000;
+		text-align: center;
+		position: relative;
+		top: 150px;
+	}
+	/*Featured in main */
+	.featured{
+		display:inline-block;
+	}
+
+.featuredcontent {
+	width: 55%;
+	float:left;
+	padding: 20px 80px 80px 80px;
+	margin:20px;
+	
+
+}
+
+	.featuredcontent h3 {
+		font-size: 2rem;
+		text-shadow: 2px 2px 4px #000000;
+		position: relative;
+		top: 20px;
+		background-color: #FF6347;
+		border: 3px solid #FFFAFA;
+		color: white;
+		font-weight: bolder;
+		padding: 10px;
+		text-align: center;
+		border-radius:15px;
+	}
+
+
+	.featuredcontent p {
+		text-align:justify;
+		font-size:20px;
+
+	}
+.inthenewsimg {
+	height: 50%;
+	width: 50%;
+	float: right;
+	margin-left: 10px;
+	border: 2px solid white;
+}
+
+.midpage_container{
+	text-align:center;
+}
+
+
+.midcontent {
+	
+	padding: 37px;
+	margin: auto;
+	display: inline-block
+}
+
+
+.characteralign{
+	text-align:center;
+}
+
+/*===========rightside====================*/
+.rightside{
+	float:right;
+	width: 20%;
+	padding: 20px 80px 80px 80px;
+	margin:20px;
+	
+
+}
+
+	.rightside h3 {
+		font-size: 2rem;
+		text-shadow: 2px 2px 4px #000000;
+		position: relative;
+		top: 20px;
+		background-color: #FF6347;
+		border: 3px solid #FFFAFA;
+		color: white;
+		font-weight: bolder;
+		padding: 10px;
+		text-align: center;
+		border-radius: 15px;
+	}
+
+
+	.rightside p {
+		text-align: justify;
+		font-size: 20px;
+	}
+	
+	.rightside a{
+		text-decoration:none;
+	}
+
+	.rightside a:hover {
+			color: #FF6347;
+		}
+
+
+	.popularcharacters{
+		text-align:center;
+	}
+
+/*where to watch*/
+.logos {
+	height: 50%;
+	width: 50%;
+	padding: 25px;
+	margin: auto 80px;
+}
+
+
+/*=============Clips featured in index===============*/
+.featuredClips {
+	text-align: center;
+	padding: 20px 80px 80px 80px;
+}
+	.featuredClips h3 {
+		font-size: 3rem;
+		text-shadow: 2px 2px 4px #000000;
+		position: relative;
+		top: 20px;
+		background-color: #FF6347;
+		border: 3px solid #FFFAFA;
+		color: white;
+		font-weight: bolder;
+		padding: 10px;
+		text-align: center;
+		border-radius: 15px;
+	}
+
+
+
+.clips{
+padding:10px;
+margin:auto;
+display:inline-block;
+
+}
+
+	.clips h4 {
+		font-size: 1rem;
+		text-shadow: 2px 2px 4px #000000;
+		position: relative;
+		background-color: #FF6347;
+		border: 3px solid #FFFAFA;
+		color: white;
+		font-weight: bolder;
+		padding: 10px;
+		text-align: center;
+		border-radius: 15px;
+	}
+
+
+	.rightside ul{
+		line-height:30px;
+	}
+.rightside li {
+	margin: 10px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	/*footer*/
+footer {
+	position:fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: black;
+	color: white;
+	text-align: center;
+	border-top: 5px solid #FF6347;
+}
+
+footer a{
+	text-decoration:none;
+	color:white;
+	text-decoration:solid;
+
+}
+footer a:hover{
+	color: #FF6347;
+	
+}
+
